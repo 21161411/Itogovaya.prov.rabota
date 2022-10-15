@@ -10,4 +10,5 @@ for(int i = 0; i < array.Length; i++)
         k++;
     } 
 }
+Console.WriteLine("[" + string.Join(", ", array2) + "]");
 
