@@ -7,8 +7,8 @@ for(int i = 0; i < array.Length; i++)
     {
         Array.Resize(ref array2, array2.Length + 1);
         array2[k] = array[i];
+        array2[k] = $"\"{array2[k]}\"";
         k++;
     } 
 }
 Console.WriteLine("[" + string.Join(", ", array2) + "]");
-
